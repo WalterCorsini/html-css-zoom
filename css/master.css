@@ -9,6 +9,11 @@ img{
     max-width: 100%;
 }
 
+/* commons */
+li{
+    margin: 0 10px;
+}
+
 /* header */
 .header-flex{
     display: flex;
@@ -21,6 +26,12 @@ header li{
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 10px;
     padding: 0.3em 0.7em;
+}
+
+.header-flex li:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.3);
+    transition-duration: 1s;
 }
 
 /* main container */
@@ -106,14 +117,15 @@ footer{
     font-size: 20px;    
 }
 
-li{
-    margin: 0 10px;
+.footer-container li{
+    border-radius: 10px;
+    padding: 0.3em 0.5em;
 }
 
-li:hover{
+.footer-container li:hover{
     cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.3);
-    transition-duration: 1s;
+    background-color: rgba(83, 83, 83, 0.3);
+    transition-duration: 0.5s;
 }
 
 .end-call{
