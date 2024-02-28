@@ -17,6 +17,7 @@ img{
 }
 
 /* header */
+
 .header-flex{
     display: flex;
     justify-content: flex-end;
@@ -68,6 +69,10 @@ main{
     position: relative;
     width: calc(100% / 7 - 20px);
     margin: 10px;
+}
+/* le immagini sono inline-block e quindi creano uno spazietto fastidioso */
+.user >img{
+    display: block;
 }
 
 .user img{
