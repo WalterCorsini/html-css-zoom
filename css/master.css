@@ -10,7 +10,11 @@ img{
 }
 
 /* commons */
-
+.list-none{
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+}
 
 /* header */
 .header-flex{
@@ -20,6 +24,11 @@ img{
     padding-top: 10px;
     padding-right: 10px;
 }
+
+.header-list{
+    gap: 10px;
+}
+
 header li{
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 10px;
@@ -102,11 +111,6 @@ footer{
     padding-left: 20px;
 }
 
-.list-none{
-    list-style-type: none;
-    display: flex;
-    text-align: center;
-}
 
 .mr-pr-10{
     margin-right: 10px;
