@@ -62,7 +62,6 @@ main{
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
-
 }
 
 .user{
@@ -111,11 +110,15 @@ footer{
     justify-content: space-between;
     display: flex;
     color: white;
-    align-items: center;
     height: 100%;
     padding-left: 20px;
+    /* align-items: center; */
 }
 
+.footer-container ul{
+    align-items: center;
+    /* display: flex; */
+}
 
 .mr-pr-10{
     margin-right: 10px;
@@ -134,10 +137,6 @@ footer{
     border-radius: 10px;
 }
 
-.footer-container ul{
-    display: flex;
-    align-items: center;
-}
 
 .footer-container li:hover{
     cursor: pointer;
