@@ -10,9 +10,7 @@ img{
 }
 
 /* commons */
-li{
-    margin: 0 10px;
-}
+
 
 /* header */
 .header-flex{
@@ -101,12 +99,18 @@ footer{
     color: white;
     align-items: center;
     height: 100%;
+    padding-left: 20px;
 }
 
 .list-none{
     list-style-type: none;
     display: flex;
     text-align: center;
+}
+
+.mr-pr-10{
+    margin-right: 10px;
+    padding-right: 10px;
 }
 
 .icon-size{
@@ -119,13 +123,15 @@ footer{
 
 .footer-container li{
     border-radius: 10px;
-    padding: 0.3em 0.5em;
+}
+
+.footer-container ul{
+    display: flex;
+    align-items: center;
 }
 
 .footer-container li:hover{
     cursor: pointer;
-    background-color: rgba(83, 83, 83, 0.3);
-    transition-duration: 0.5s;
 }
 
 .end-call{
